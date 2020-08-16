@@ -28,7 +28,7 @@ def req_url(url):
 
 # multiple pages list
 pages_list = [i for i in range(0, 200, 50)]
-years_list = [i for i in range(2010, 2011)]
+years_list = [i for i in range(2010, 2020)]
 request_total = len(pages_list) * len(years_list)
 movie_total = request_total * 50
 
